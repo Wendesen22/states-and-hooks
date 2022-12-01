@@ -7,7 +7,7 @@ export default function IncreaseDecreaseCount() {
     const reset = ()=> setCount(0)
     const increament = ()=> setCount(count + 1)
   return (
-    <div className='box'>
+    <div className='box1'>
     <h1>Counter app ~ with Function-based React</h1>
     <div className='valueHolder'>
         <h1>Count: {count}</h1>

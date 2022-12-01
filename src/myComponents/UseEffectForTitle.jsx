@@ -7,14 +7,15 @@ export default function UseEffectForTitle() {
     const clickUpdater = () => setCount(count + 1);
 
     useEffect(()=>{
-        document.title = `You clicked ${count} times`
-    })
-    useEffect(()=>{
         alert('Component is mounted')
     }, []) //executes only once
 
+    useEffect(()=>{
+        document.title = `You clicked ${count} times`
+    })
+    
   return (
-    <div className='box'>
+    <div className='box2'>
     <h1>Click counter app using React Hooks</h1>
     
     <button onClick={clickUpdater}>Click Here</button>

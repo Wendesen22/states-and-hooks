@@ -7,8 +7,8 @@ import UseEffectForTitle from "./myComponents/UseEffectForTitle";
 function App() {
   return (
     <div className="App">
-      {/* <MyCounter /> */}
-      {/* <IncreaseDecreaseCount /> */}
+      <MyCounter />
+      <IncreaseDecreaseCount />
       <UseEffectForTitle />
     </div>
   );
